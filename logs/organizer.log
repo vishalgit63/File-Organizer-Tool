@@ -1,0 +1,19 @@
+2026-10-02 11:09:41,441 | INFO | DUPLICATE_SCAN /tmp/tmpj0vlfqw7 | groups=1
+2026-10-02 11:09:41,442 | INFO | MOVE /tmp/tmpj0vlfqw7/pic.jpg -> /tmp/tmpj0vlfqw7/Images/pic.jpg
+2026-10-02 11:09:41,442 | INFO | MOVE /tmp/tmpj0vlfqw7/script.py -> /tmp/tmpj0vlfqw7/Code/script.py
+2026-10-02 11:09:41,442 | INFO | MOVE /tmp/tmpj0vlfqw7/a.txt -> /tmp/tmpj0vlfqw7/Documents/a.txt
+2026-10-02 11:09:41,442 | INFO | MOVE /tmp/tmpj0vlfqw7/b.txt -> /tmp/tmpj0vlfqw7/Documents/b.txt
+2026-10-02 11:09:41,442 | INFO | UNDO /tmp/tmpj0vlfqw7/Documents/b.txt -> /tmp/tmpj0vlfqw7/b.txt
+2026-10-02 11:09:41,442 | INFO | UNDO /tmp/tmpj0vlfqw7/Documents/a.txt -> /tmp/tmpj0vlfqw7/a.txt
+2026-10-02 11:09:41,442 | INFO | UNDO /tmp/tmpj0vlfqw7/Code/script.py -> /tmp/tmpj0vlfqw7/script.py
+2026-10-02 11:09:41,442 | INFO | UNDO /tmp/tmpj0vlfqw7/Images/pic.jpg -> /tmp/tmpj0vlfqw7/pic.jpg
+2026-10-02 11:09:41,443 | INFO | RENAME /tmp/tmpj0vlfqw7/a.txt -> /tmp/tmpj0vlfqw7/file_001.txt
+2026-10-02 11:09:41,443 | INFO | RENAME /tmp/tmpj0vlfqw7/b.txt -> /tmp/tmpj0vlfqw7/file_002.txt
+2026-10-02 11:09:41,443 | INFO | RENAME /tmp/tmpj0vlfqw7/pic.jpg -> /tmp/tmpj0vlfqw7/file_003.jpg
+2026-10-02 11:09:41,443 | INFO | RENAME /tmp/tmpj0vlfqw7/script.py -> /tmp/tmpj0vlfqw7/file_004.py
+2026-10-02 11:09:41,443 | INFO | UNDO /tmp/tmpj0vlfqw7/file_004.py -> /tmp/tmpj0vlfqw7/script.py
+2026-10-02 11:09:41,443 | INFO | UNDO /tmp/tmpj0vlfqw7/file_003.jpg -> /tmp/tmpj0vlfqw7/pic.jpg
+2026-10-02 11:09:41,443 | INFO | UNDO /tmp/tmpj0vlfqw7/file_002.txt -> /tmp/tmpj0vlfqw7/b.txt
+2026-10-02 11:09:41,443 | INFO | UNDO /tmp/tmpj0vlfqw7/file_001.txt -> /tmp/tmpj0vlfqw7/a.txt
+2026-10-02 11:37:16,814 | INFO | DUPLICATE_SCAN /tmp/tmpm_pwnziy | groups=1
+2026-10-02 11:37:16,814 | INFO | DELETE_DUPLICATE /tmp/tmpm_pwnziy/b.txt
